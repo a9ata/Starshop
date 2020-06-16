@@ -2,15 +2,6 @@
     width: 100%;
     height: 1511px;
 }
-
-
-.navbar-brand{
-    position: absolute;
-    left: 9.86%;
-    right: 84.28%;
-    top: 20%;
-    bottom: 15%;
-}
 */
 
 .navbar{
@@ -27,7 +18,7 @@
 } 
 
 .bg-black{
-    background-color: black;
+    background-color: #1F1F1F;
 }
 
 .mr-auto{
@@ -70,4 +61,57 @@
     text-align: center;
     color: #1F1F1F;
     margin-top: 5px;
+}
+
+#sticky-footer2{
+    height: 358px;
+    flex-shrink: none;
+    background-color: rgba(31, 31, 31, 0.85);
+}
+
+.font{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+}
+
+.list-unstyled{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 16px;
+    text-decoration: none;
+    color: #FFFFFF;
+    
+}
+
+#sticky-footer {
+    height: 113px;
+    flex-shrink: none;
+}
+
+.bg-d{
+    background-color: #1F1F1F;
+}
+
+.text-center{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: white;
+    
+}
+
+ .logo{
+    margin-left: -40px;
+}
+
+.social-sites{
+    margin-right: -90px;
 }
