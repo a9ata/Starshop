@@ -66,7 +66,7 @@
 #sticky-footer2{
     height: 358px;
     flex-shrink: none;
-    background-color: rgba(31, 31, 31, 0.85);
+    background-color: #1f1f1fd9;
 }
 
 .font{
@@ -79,7 +79,7 @@
     color: #FFFFFF;
 }
 
-.list-unstyled{
+.dropdown-item{
     font-family: Source Sans Pro;
     font-style: normal;
     font-size: 13px;
@@ -87,6 +87,11 @@
     text-decoration: none;
     color: #FFFFFF;
     
+}
+
+.btn{
+    border-top: 2px solid #FFFFFF;
+    color:#FFFFFF;
 }
 
 #sticky-footer {
