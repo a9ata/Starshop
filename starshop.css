@@ -58,17 +58,6 @@
     background-color: #1f1f1fd9;
 }
 
-
-.font{
-    font-family: Source Sans Pro;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 13px;
-    line-height: 16px;
-
-    color: #FFFFFF;
-}
-
 .dropdown-item{
     font-family: Source Sans Pro;
     font-style: normal;
@@ -76,6 +65,13 @@
     line-height: 16px;
     text-decoration: none;
     color: #FFFFFF;
+
+}
+
+
+
+.dropdown-toggle{
+    background: url(images/arrow.svg) no-repeat 90% 50%;
     
 }
 
@@ -84,9 +80,10 @@
     border-top: 1px solid #FFFFFF;
     font-family: Source Sans Pro;
     font-style: normal;
-    font-size: 13px;
-    line-height: 16px;
+    font-size: 17px;
+    line-height: 20px;
     text-decoration: none;
+    padding-left: 35px;
 }
 
 .btn-lg{
@@ -94,6 +91,7 @@
 }
 
 #sticky-footer {
+    
     height: 113px;
     flex-shrink: none;
 }
@@ -112,10 +110,11 @@
     
 }
 
- .logo{
-    margin-left: -40px;
+.logo{
+    justify-content: start;
 }
 
 .social-sites{
-    margin-right: -90px;
+    display: flex;
+    justify-content: end;
 }
