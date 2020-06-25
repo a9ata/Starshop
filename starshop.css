@@ -1,12 +1,13 @@
-.navbar{
+/* .navbar{
     height: 60px;
-}
+} */
 
 .nav-item > a{
     font-family: Source Sans Pro;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
+    
 } 
 
 .bg-black{
@@ -68,7 +69,10 @@
 
 }
 
+.dropdown-toggle::after{
+    display: none !important;
 
+}
 
 .dropdown-toggle{
     background: url(images/arrow.svg) no-repeat 90% 50%;
@@ -117,4 +121,8 @@
 .social-sites{
     display: flex;
     justify-content: end;
+}
+
+.social-sites > a{
+    margin-left: 10px;
 }
